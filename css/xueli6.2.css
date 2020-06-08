@@ -1,0 +1,204 @@
+.header{
+	height: 100px;
+}
+.container{
+	margin: 0 auto;
+	width: 1200px; 
+	text-align: center;
+}
+.header-img{
+	float: left;
+	margin-left: 80px;
+	margin-top: 28px;
+}
+.header-left{
+	float: left;
+	margin-left: 30px;
+	margin-top: 40px;
+	font-size: 25px;
+	color: #660000;
+	font-weight: bold;
+	font-style: italic;
+}
+.form{
+	margin-top: 42px;
+	float: left;
+}
+.search{
+	margin-left: 200px;
+	width: 250px;
+	height: 30px;
+	padding-left: 6px;
+}
+.submit{
+	width: 30px;
+	height: 33px;
+	float: right;
+	background: rgba(208,61,61,1) url(../images/放大镜.png) no-repeat center;
+}
+.header-imgright{
+	margin-top: 50px;
+	margin-right: 220px;
+}
+.header-rightone{
+	margin-top: -30px;
+	font-size: 10px;
+	color: #660000;
+	margin-right: 220px;
+	float: right;
+}
+.header-righttwo{
+	margin-top: -15px;
+	font-size: 10px;
+	color: #660000;
+	margin-right: 190px;
+	float: right;
+} 
+.nav-one{
+	margin-top: 30px;
+	cursor: pointer;
+	margin-left: 335px;
+	position: relative;
+} 
+.nav-one li{
+	width: 140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #660000;
+} 
+.nav-one>div a{
+	color: white;
+}
+.nav-one>div>ul ul{
+	display: none;
+	position: absolute;
+	z-index: 2;
+}
+.nav-one>div>ul>li{
+	float: left;
+	position: relative;
+}
+.nav-one>div>ul>li:hover ul{
+	display: block;
+}
+.nav-one>div li:hover{
+	background-color: #CC6633;
+} 
+.erji{
+	position: absolute;
+}
+.banner{
+	height: 500px;
+	position: relative;
+	z-index: 1;
+}
+.banner li{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.banner-one{
+	background: url(../images/banner1.jfif) no-repeat center center;
+	z-index: 1; 
+}
+.banner-two{
+	background: url(../images/banner3.jfif) no-repeat center center;
+	z-index: 2;
+}
+.newlist{
+	margin-right: 500px;
+	color: #660033;
+	padding-top: 10px;
+}
+.list{
+	background-color: #ccc;
+} 
+.list>div ul{
+	float: left;
+}
+.list>div{
+	margin-left: 335px;
+}
+.list>div ul{
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.list>div a{
+	color: black;
+}
+.list>div ul li{
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	text-align: left;
+} 
+.xinpin{
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin-left: 230px;
+	margin-top: 20px;
+	color: #660000;
+	font-size: 20px;
+	font-weight: bold;
+} 
+.cake-img{
+	margin-top: 66px;
+	float: left;
+	margin-left: -15px;
+} 
+.cake-img>ul li{
+	float: left;
+	margin-left: 8px;
+	position: relative;
+} 
+.cake-img>ul li div{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 40px;
+	background: rgba(208,61,61,0.8);
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.biaodan{
+	border-top: 2px dotted #660000;
+	background-color: #CC9999;
+}
+.biaodan p{
+	margin-left: 330px;
+	margin-top: 300px;
+	color: #660000;
+	font-weight: bold;
+}
+.biaodan-one{
+	margin-left: 330px;
+	margin-top: 10px;
+}
+.footer{
+	width: 100%;
+	height: 150px;
+	background: rgba(0,0,0,0.8);
+}
+.one{
+	text-align: center;
+	padding-top: 25px;
+	font-weight: bold;
+	color: white;
+}
+.two{
+	padding-top: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+
